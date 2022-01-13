@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+body { 
+    background: url("fundo-9.jfif") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.hr-1 {
+    margin-top: 20px;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    font-size: 20px;    
+}
+
+.main {
+    margin-bottom: 48;
+    border-top: 1px solid #fff2e7;
+    margin-top: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudo-principal-h1 {
+    font-size: 60px;
+    color: #dee8ec;
+}
+
+.conteudo-principal-h2 {
+    font-size: 25px;
+    color: #dee8ec;
+}
+
+.conteudo-principal-botao {
+    background-color: #dee8ec;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.conteudo-principal-botao:hover,
+.conteudo-principal-botao:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 3px #93b0d0;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.h3 {
+    border-top: 0.4px solid #fff2e7;   
+    padding-top: 10px;
+    font-size: 25px;
+    color: #fff2e7;
+}
+
+.p {
+    font-size: 20px;
+    color: #fff2e7;
+}
+
+.ballerini-rodape {
+    margin-top: 40px;
+    margin-bottom: 48;
+    border-top: 1px solid #fff2e7;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
